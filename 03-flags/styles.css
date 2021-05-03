@@ -15,9 +15,12 @@ h1 {text-align: center; font-family: tahoma, verdana, sans-serif; color: red}
     height:33.3%;
 }
 
-.black {background-color: black;}
-.red {background-color: red;}
-.gold {background-color: gold;}
+        .black {background-color: black;}
+        .red {background-color: red;}
+        .gold {background-color: gold;}
+
+.stripe:hover {
+        }
 
     .flag-2:before {
         margin: auto;
