@@ -1,0 +1,41 @@
+* {text-align: center; font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;}
+body {background-color: white;}
+h1 {text-align: center; font-family: tahoma, verdana, sans-serif; color: red}
+.flag {
+    margin: auto;
+    height: 150px;
+    width: 300px;
+    position:absolute;
+    left: 0;
+}
+
+.stripe {
+    display: block;
+    width: 100%;
+    height:33.3%;
+}
+
+.black {background-color: black;}
+.red {background-color: red;}
+.gold {background-color: gold;}
+
+    .flag-2:before {
+        margin: auto;
+        content: "";
+        width: 100px;
+        height: 150px;
+        background-color: blue;
+        position: absolute;
+        top: 32%;
+        left: 0
+        }
+
+    .flag-2::after {
+        content:"";
+        width:100px;
+        height: 150px;
+        background-color: red;
+        position: absolute;
+        top: 32%;
+        left: 200px;
+    }
